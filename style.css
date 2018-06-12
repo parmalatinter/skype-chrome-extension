@@ -1,0 +1,19 @@
+.setTime input[type="text"] {
+    width: 25px;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+input[type="text"] {
+    margin-top:: 1px;
+    margin-bottom:: 2px;
+
+}
+
+input[type="text"].time {
+    width: 50px;
+}
+
+body {
+    width: 400px;
+}

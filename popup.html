@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./libs/TimePicki-master/css/timepicki.css">
+
+    <script src="./libs/jquery/jquery.min.js"></script>
+    <script src="./libs/TimePicki-master/js/timepicki.js"></script>
+    <script type="text/javascript" src="./node_modules/chrome-extension-async/chrome-extension-async.js"></script>
+    <script src="popup.js"></script>
+
+
+</head>
+<body>
+<form id="my_form">
+    <p>ユーザーID</p>
+    <input type="email" name="userId" class="userId" required>
+
+    <p>ユーザーPASS</p>
+    <input type="password" name="userPass" class="userPass" required>
+
+    <p>URL</p>
+    <input type="text" class="url" name="url" required>
+
+    <p>ターゲットユーザー名</p>
+    <input type="text" class="targetUserName" name="targetUserName" required>
+
+    <input type="hidden" name="stop" value="0">
+    
+    <button type="submit" id="link">START</button><br>
+
+    <p>停止機能</p>
+    <button type="button" id="stop">停止</button><br><br>
+
+    <div class="setUp"></div>
+</form>
+
+
+</body>
+</html>
